@@ -19,7 +19,7 @@ fireFoxOptions = webdriver.FirefoxOptions()
 fireFoxOptions.add_argument("--headless")
 
 
-driver = webdriver.Firefox(executable_path=r'./geckodriver', firefox_options=fireFoxOptions)
+driver = webdriver.Firefox(executable_path=r'./geckodriver', options=fireFoxOptions)
 
 driver.get(url)
 print(driver.title)
