@@ -16,7 +16,9 @@ requests.get(url, headers=headers)
 # Selenium
 
 fireFoxOptions = webdriver.FirefoxOptions()
-fireFoxOptions.set_headless()
+fireFoxOptions.add_argument("--headless")
+
+
 driver = webdriver.Firefox(executable_path=r'./geckodriver', firefox_options=fireFoxOptions)
 
 driver.get(url)
