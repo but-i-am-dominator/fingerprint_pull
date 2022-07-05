@@ -22,7 +22,6 @@ try:
     driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=fireFoxOptions)
     driver.get(url)
     driver.close()
-# executable_path=r'./geckodriver',
 except:
     print("Selenium not found.")
 
