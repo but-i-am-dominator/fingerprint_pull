@@ -7,7 +7,7 @@ This script creates packets evenly for *nix platforms operating systems so that 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/but-i-am-dominator/fingerprint_pull.git
    ```
 2. From inside the directory; install the python prerequisites.
    ```sh
@@ -18,6 +18,15 @@ This script creates packets evenly for *nix platforms operating systems so that 
    sudo apt install firefox
 
    ```
+
+### Usage
+
+This script must be called with a required argument. You must add the desired URL/URI to the end of the command.
+
+```sh
+python crawl.py http://162.243.3.85:65000
+```
+
 
 ### Requirements
 
