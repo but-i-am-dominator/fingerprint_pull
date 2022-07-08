@@ -2,13 +2,14 @@
 
 import requests
 import subprocess
+import sys
 
 # Get the Kernel Version
 kernel = subprocess.getoutput('uname -r')
 
 # Requests containing Header with Kernel version
 headers = {'Kernel-Version': kernel}
-url = 'http://162.243.3.85:65000'
+url = sys.argv[1:].pop()
 requests.get(url, headers=headers)
 
 
