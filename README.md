@@ -21,12 +21,19 @@ This script creates packets evenly for *nix platforms operating systems so that 
 
 ### Usage
 
+#### Client Side
 This script must be called with a required argument. You must add the desired URL/URI to the end of the command.
 
 ```sh
-python crawl.py http://162.243.3.85:65000
+python client.py http://162.243.3.85:65000
 ```
 
+#### Server Side
+This script must be called with a required argument. You must add a string of the file name that you are extracting the signature from.
+
+```sh
+python server.py filename.pcap
+```
 
 ### Requirements
 
