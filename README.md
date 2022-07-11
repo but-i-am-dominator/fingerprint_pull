@@ -47,4 +47,5 @@ For this script to run:
 ## Contact
 
 David "Q" Quartarolo - [@d_quartarolo](https://twitter.com/d_quartarolo)
+
 Project Link: [https://github.com/but-i-am-dominator/fingerprint_pull](https://github.com/but-i-am-dominator/fingerprint_pull)
