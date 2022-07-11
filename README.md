@@ -44,11 +44,7 @@ For this script to run:
 * Firefox binary.
 
 
-### Notes
-Chrome does not have the acrhieved versions that Firefox has. Firefox was chosen as the browser platform. The firefox binary must be present for Selenium to work.
-
 ## Contact
 
 David "Q" Quartarolo - [@d_quartarolo](https://twitter.com/d_quartarolo)
-
 Project Link: [https://github.com/but-i-am-dominator/fingerprint_pull](https://github.com/but-i-am-dominator/fingerprint_pull)
