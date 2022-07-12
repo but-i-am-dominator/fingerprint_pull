@@ -1,6 +1,5 @@
 #Imports
 from scapy.all import sniff
-import time
 import sys
 
 
